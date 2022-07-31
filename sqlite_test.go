@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"modernc.org/sqlite"
 	"gorm.io/gorm"
+	"modernc.org/sqlite"
 )
 
 func TestDialector(t *testing.T) {
