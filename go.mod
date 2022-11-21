@@ -3,12 +3,14 @@ module github.com/andatoshiki/sqlite
 go 1.17
 
 require (
-	gorm.io/gorm v1.22.3
+	gorm.io/gorm v1.24.2
 	modernc.org/sqlite v1.14.0
 )
 
 require (
 	github.com/google/uuid v1.3.0 // indirect
+	github.com/jinzhu/inflection v1.0.0 // indirect
+	github.com/jinzhu/now v1.1.4 // indirect
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20200410134404-eec4a21b6bb0 // indirect
