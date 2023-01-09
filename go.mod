@@ -4,10 +4,11 @@ go 1.17
 
 require (
 	gorm.io/gorm v1.22.3
-	modernc.org/sqlite v1.19.5
+	modernc.org/sqlite v1.20.2
 )
 
 require (
+	github.com/dustin/go-humanize v1.0.0 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.2 // indirect
@@ -21,7 +22,7 @@ require (
 	lukechampine.com/uint128 v1.2.0 // indirect
 	modernc.org/cc/v3 v3.40.0 // indirect
 	modernc.org/ccgo/v3 v3.16.13 // indirect
-	modernc.org/libc v1.21.5 // indirect
+	modernc.org/libc v1.22.2 // indirect
 	modernc.org/mathutil v1.5.0 // indirect
 	modernc.org/memory v1.4.0 // indirect
 	modernc.org/opt v0.1.3 // indirect
